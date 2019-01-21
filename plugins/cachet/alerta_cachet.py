@@ -47,7 +47,8 @@ class CachetIncident(PluginBase):
             return
 
         try:
-            r = json.loads(self.incidents.post(name=name, message=message, status=status, visible=True))
+            #r = json.loads(self.incidents.post(name=name, message=message, status=status, visible=True))
+            r = json.loads(self.incidents.post(name=name, message=message, status=status, visible=False))
         except Exception as e:
             raise RuntimeError("Cachet: ERROR - %s", e)
 
