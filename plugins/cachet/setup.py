@@ -7,7 +7,8 @@ setup(
     name="alerta-cachet",
     version=version,
     description='Alerta plugin for Cachet status page',
-    url='https://github.com/alerta/alerta-contrib',
+    #url='https://github.com/alerta/alerta-contrib',
+    url='https://github.com/fabius87/alerta-contrib-personal'
     license='MIT',
     author='Nick Satterly',
     author_email='nick.satterly@theguardian.com',
